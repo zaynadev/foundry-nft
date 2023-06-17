@@ -2,6 +2,6 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-remappings = ["@openzeppelin/contracts/=lib/openzeppelin-contracts/"]
+remappings = ["@openzeppelin/=lib/openzeppelin-contracts/"]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config/home/zayna/foundry/foundry-nft/lib/forge-std
