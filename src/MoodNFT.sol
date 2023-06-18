@@ -3,6 +3,7 @@ pragma solidity ^0.8.19;
 
 import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
+import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MoodNFT is ERC721, Ownable {
     error ERC721Metadata__URI_QueryFor_NonExistentToken();
